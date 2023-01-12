@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+}
+
+.ad1,.ad2{
+    background-color: #fa1160;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-weight: bolder;
+}
+
+span.more{
+    border-bottom: 2px solid white;
+}
+
+.ad2{
+    background-color: black;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+.ad2 span{
+    font-size: smaller;
+    color: #fa1160;
+    border-bottom: 2px solid #fa1160;
+}
+
+
+.social{
+    width: 150px;
+    margin-right: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.times i{
+    margin-right: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: x-large;
+    color: black;
+    margin-right: 20px;
+}
+
+.link{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -500px;
+}
+
+.link a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: smaller;
+    border: 2px solid transparent;
+    transition: color .5s, border-bottom .5s;
+}
+
+
+.link a:hover{
+    color: #fa1160;
+    border-bottom: 2px solid #fa1160;
+}
+
+.cover{
+    background-image: url(https://cdn.shopify.com/s/files/1/1155/1758/files/Imouri_HP_Hero_Image_V3_2048x.jpg?v=1627068783);
+    
+    height: 650px;
+    margin-bottom: 0px;
+}
+
+.icon span{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.ad3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.campus{
+    background-image: url(https://cdn.shopify.com/s/files/1/1155/1758/files/Campus_Capsule_Email_Header_700x.jpg?v=1630700233);
+    height:160px;
+    width:60%;
+}
+
+.available{
+    margin: 0 auto;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.available:hover,p.price{
+    color: #fa1160;
+}
+
+.arrivals{
+    margin: 60px;
+    text-align: center;
+}
+
+.arrivals span{
+    display: block;
+}
+
+.year{
+    font-weight: bolder;
+    margin: 10px 0;
+}
+.text{
+    font-weight: normal;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+}
+
+p.price{
+    font-weight: bolder;
+}
+
+.button{
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.button button{
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid rgb(201, 197, 197);
+   
+    border-radius: 20px;
+    transition: border-color .5s;
+    background-color: white;
+}
+
+.button button:hover{
+    border-color: black;
+    cursor: pointer;
+}
+
+.title{
+    background-color: #fa1160;
+    color: white;
+    text-align:center;
+    padding: 28px 0;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+.content img{
+    width: 550px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 90px;
+
+}
+
+.content h1{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.ctext{
+    padding: 120px 120px;
+}
+
+.paragraph{
+    
+    line-height: 25px;
+}
+
+.image{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.image > *{
+    margin: 0 5px;
+    text-align: center;
+}
+.image h3,.image h4{
+    font-weight: bolder;
+}
+
+.image img{
+    width: 100%;
+    
+}
+
+.img1 > *, .img2> *,.img3 > *{
+    margin-bottom: 10px;
+}
